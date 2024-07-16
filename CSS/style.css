@@ -1,0 +1,144 @@
+/* General style */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Start nav */
+.side-nav {
+    bottom: 0;
+    left: -250px;
+    width: 250px;
+}
+.nav-content {
+    background-color: #111111;
+}
+ul {
+    list-style: none; 
+    padding-inline-start: 10px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+ul li {
+    padding: 20px;
+}
+.nav-items ul li:hover a {
+    color: #d62e3366;
+}
+.close-btn i {
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.close-btn i:hover {
+    color: #d62e3366;
+
+}
+/* End nav */
+/* Start home */
+.home {
+    background-color: #831C20;
+    height: 90vh;
+}
+.home p , h1 {
+    color: white;
+}
+.home-title h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+.nav-btn span, i {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+/* End home */
+/* Start Singers */
+.singers h4 {
+ font-size: 28px;
+ font-weight: 500;
+ color: white;
+ margin: 0;
+ background-color: #E68285;
+ border-bottom: 2px solid rgb(190, 190, 190)
+}
+.singers p {
+    background-color: #CCCCCC;
+    margin: 0;
+    padding: 10px;
+}
+#p1 {
+    display: block;
+}
+#p2 , #p3 , #p4 {
+    display: none;
+}
+/* Start Duration */
+.frame {
+    background-color: #E68285;
+}
+.d-container {
+    border: 1px solid white;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.d-container h5 {
+    font-size: 30px;
+    padding-inline: 40px;
+    font-weight: 500;
+    color: white;
+}
+/* End Duration */
+/* Start contact */
+
+.join h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #444;
+}
+.join p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #777
+    ;
+}
+.info h4 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #444;
+}
+.info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}
+.icons p i , .icons p {
+    color: #777;
+    font-size: 16px;
+}
+.social i {
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    z-index: 999;
+    margin-right: 20px;
+    margin-top: 30px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.social i:hover {
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
